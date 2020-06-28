@@ -80,7 +80,7 @@ public class ShowContactActivity extends AppCompatActivity {
         deleteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                contactViewModel.deleteContact(contact);
+                contactViewModel.deleteAll();
                 goBack();
             }
         });
